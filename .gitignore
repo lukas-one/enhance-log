@@ -1,6 +1,11 @@
 *.map
 *.log
+package-lock.json
+.vscode/settings.json
+.vscode/launch.json
+
 debug/
 dist/
 node_modules/
-package-lock.json
+.nyc_output/
+tmp/
