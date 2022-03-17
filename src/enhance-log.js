@@ -17,8 +17,8 @@ class Log {
     static e(message, ...vars) {
         Log.o(Log.color.error, message, ...vars);
     }
-    static throw(errorCode, message) {
-        throw new Error(errorCode + ": " + message);
+    static throw(message, errorCode = 0) {
+        throw new Error(`Code ${errorCode}: ${message}`);
     }
     static o(color, message, ...vars) {
         const date = new Date;
