@@ -1,6 +1,6 @@
 {
   "name": "enhance-log",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple/lazy but pretty console logging for TS/JS projects",
   "main": "src/enhance-log.js",
   "scripts": {
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/lukas-one/enhance-log#readme",
   "files": [
     "src/enhance-log.js",
-    "src/enhance-log.d.js"
+    "src/enhance-log.ts",
+    "src/enhance-log.d.ts"
   ],
   "devDependencies": {
     "typescript": "^4.6.2"
