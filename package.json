@@ -1,7 +1,7 @@
 {
   "name": "enhance-log",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Simple/lazy but pretty console logging for TS/JS projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,15 @@
     "url": "git+https://github.com/lukas-one/enhance-log.git"
   },
   "author": "Luke Trimby",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lukas-one/enhance-log/issues"
   },
   "homepage": "https://github.com/lukas-one/enhance-log#readme",
   "devDependencies": {
     "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "js-logger": "^1.6.1"
   }
 }
