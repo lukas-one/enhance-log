@@ -1,0 +1,17 @@
+{
+  "include": [ "./src/**/*.ts" ],
+  "outFile": "enhance-log.js",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true       
+  }
+}
