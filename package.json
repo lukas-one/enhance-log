@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/lukas-one/enhance-log#readme",
   "files": [
-    "src/enhance-log.js"
+    "src/enhance-log.js",
+    "src/enhance-log.d.js"
   ],
   "devDependencies": {
     "typescript": "^4.6.2"
