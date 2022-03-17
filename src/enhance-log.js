@@ -33,4 +33,3 @@ Log.color = {
     warn: '#FF6633',
     error: '#FF3333'
 };
-//# sourceMappingURL=enhance-log.js.map
