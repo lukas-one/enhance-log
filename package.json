@@ -1,6 +1,6 @@
 {
   "name": "enhance-log",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple/lazy but pretty console logging for TS/JS projects",
   "main": "src/enhance-log.js",
   "scripts": {
